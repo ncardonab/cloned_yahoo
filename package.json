@@ -1,0 +1,19 @@
+{
+  "name": "cloned_yahoo",
+  "version": "1.0.0",
+  "description": "Cloned Yahoo for networks & telecomunications II asignature second workshop",
+  "main": "app.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=production node app.js",
+    "dev": "cross-env NODE_ENV=development nodemon app.js"
+  },
+  "author": "Nicolás Cardona Buelvas",
+  "license": "MIT",
+  "dependencies": {
+    "cross-env": "^7.0.3",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.7"
+  }
+}
